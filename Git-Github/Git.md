@@ -25,16 +25,16 @@
 - git reset --mixed ->                       ...cleaning the staging area \
 - git reset --hard ->                        ...and reversing all the modifications made in the machine 
 
-- git commit -m "message" ->                 //the changes made that are in the staging area are saved in the git repository \
-- git status ->                              //shows the current state of the Git working directory and staging area
+- git commit -m "message" ->                 the changes made that are in the staging area are saved in the git repository \
+- git status ->                              shows the current state of the Git working directory and staging area
 
-- git branch ->                              //shows all the branches in the directory \
-- git branch -M <branch.name> ->             //"renames" the branch to <branch.name> \
-- git branch <branch.name> ->                //creates a new branch called <branch.name> \
-- git branch -D <branch.name> ->             //deletes the <branch.name> \
-- git checkout <branch.name> ->              //navigates to <branch.name>
+- git branch ->                              shows all the branches in the directory \
+- git branch -M <branch.name> ->             "renames" the branch to <branch.name> \
+- git branch <branch.name> ->                creates a new branch called <branch.name> \
+- git branch -D <branch.name> ->             deletes the <branch.name> \
+- git checkout <branch.name> ->              navigates to <branch.name>
 
-- git checkout HEAD <file> ->                //replaces the <file> with the last commited version of it 
+- git checkout HEAD <file> ->                replaces the <file> with the last commited version of it 
 
 - git diff ->                                shows all the modifications made \
 - git diff --name-only ->                    shows only the names of all the files that were modificated
