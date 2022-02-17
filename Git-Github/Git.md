@@ -64,4 +64,4 @@
      
 ---
     
-- git clone <link> ->                         clones a repository using the URL of the project
+- git clone < URL > ->                         clones a repository using the URL of the project
