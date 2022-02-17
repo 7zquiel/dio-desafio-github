@@ -19,8 +19,8 @@
 - git add <file> ->                          adds a <file> to the staging area
 - git add -A, git add . ->                   adds all files to the staging area
 - git log ->                                 shows the history of all the commits
-- git restore <file> ->                      goes back to the last commit and erase all modifications made after that 
-   
+- git restore <file> ->                      goes back to the last commit and erase all modifications made after that
+    
 - git reset --soft  <id.commit> ->           goes back to a specific commit
 - git reset --mixed ->                       ...cleaning the staging area
 - git reset --hard ->                        ...and reversing all the modifications made in the machine 
