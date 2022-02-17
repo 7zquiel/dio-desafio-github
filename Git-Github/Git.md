@@ -16,17 +16,17 @@ Git Commands
  * Commands:
 
    git init ->                              creates a new repository \
-   git add <file> ->                           //adds a <file> to the staging area \
-   git add -A, git add . ->                    //adds all files to the staging area \
-   git log ->                                 //shows the history of all the commits \
-   git restore <file> ->                      //goes back to the last commit and erase all modifications made after that \
+   git add <file> ->                        adds a <file> to the staging area \
+   git add -A, git add . ->                 adds all files to the staging area \
+   git log ->                               shows the history of all the commits \
+   git restore <file> ->                    goes back to the last commit and erase all modifications made after that 
    
-   git reset --soft  <id.commit>            //goes back to a specific commit \
-             --mixed                        //...cleaning the staging area \
-             --hard                         //...and reversing all the modifications made in the machine \
+   git reset --soft  <id.commit> ->           goes back to a specific commit \
+   git reset --mixed ->                       ...cleaning the staging area \
+   git reset --hard ->                        ...and reversing all the modifications made in the machine 
 
    git commit -m "message"                  //the changes made that are in the staging area are saved in the git repository \
-   git status                               //shows the current state of the Git working directory and staging area \
+   git status                               //shows the current state of the Git working directory and staging area
 
    git branch                               //shows all the branches in the directory \
    git branch -M <branch.name>              //"renames" the branch to <branch.name> \
