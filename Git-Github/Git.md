@@ -4,18 +4,18 @@ Git Commands
 
    git config --global user.name "Nome Sobrenome" \
    git config --global user.email "email@gmail.com"\
-   git config --golbal core.editor vscode \
+   git config --golbal core.editor vscode 
 
  * Consulting: 
 
-   git config --list
-   git config user.name
-   git config user.email
+   git config --list \
+   git config user.name \
+   git config user.email \
    git config core.editor
 
  * Commands:
 
-   git init                                 //creates a new repository
+   git init ->                              creates a new repository \
    git add <file>                           //adds a <file> to the staging area
    git add -A, git add .                    //adds all files to the staging area
    git log                                  //shows the history of all the commits
