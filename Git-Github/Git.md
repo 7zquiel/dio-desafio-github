@@ -2,9 +2,9 @@ Git Commands
 
  * Configuration:
 
-   git config --global user.name "Nome Sobrenome"
-   git config --global user.email "email@gmail.com"
-   git config --golbal core.editor vscode
+   git config --global user.name "Nome Sobrenome" \
+   git config --global user.email "email@gmail.com"\
+   git config --golbal core.editor vscode \
 
  * Consulting: 
 
